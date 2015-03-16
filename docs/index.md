@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Accueil
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Documentation de l'api wizzem
 
-## Commands
+## Sommaire
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+* [`Accueil` - Cette page.](index.md)
+* [`Dépendances` - Liste des dep.](dep.md)
+* [`Add_Feature` - Comment implementer entièrement.](add_feature.md)
+* [`Inscription`](signup.md)
+* [`Connexion`](login.md)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
