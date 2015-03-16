@@ -3,6 +3,7 @@ pages:
 - [index.md, Accueil]
 - [dep.md, Dépendances]
 - [add_feature.md, Add_Feature]
-- [signup.md, Inscription]
-- [login.md, Connexion]
+- [signup.md, /Inscription]
+- [login.md, /Connexion]
+- [me.md, /Moi]
 theme: Amelia
