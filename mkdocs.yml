@@ -6,4 +6,4 @@ pages:
 - [signup.md, /Inscription]
 - [login.md, /Connexion]
 - [me.md, /Moi]
-theme: Amelia
+theme: amelia
