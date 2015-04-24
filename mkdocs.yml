@@ -1,9 +1,10 @@
 site_name: wizzem api
 pages:
 - [index.md, Accueil]
-- [dep.md, Dépendances]
-- [add_feature.md, Add_Feature]
-- [signup.md, /Inscription]
-- [login.md, /Connexion]
-- [me.md, /Moi]
-theme: amelia
+- [user.md, User]
+- [comment.md, Comment]
+- [event.md, Event]
+- [like.md, Like]
+- [media.md, Media]
+- [participant.md, Participant]
+theme: slate
