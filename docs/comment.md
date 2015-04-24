@@ -1,20 +1,21 @@
+
+# PAS FINI NE PAS ENCORE UTILISER
 # Les commentaires
 
 Voici le listing de toute les fonctions cloud disponible pour les commentaires.
 
-Le schéma:
+Le schéma complet:
 
 * objectId | String | ID du commentaire
 * comment | String | Le commentaire
-* mediaId | Objet Media | 
-* eventId | Objet Event |
-* userId | Objet User
-* createdAt | String
-* updatedAt | String
+* mediaId | Objet Media | Pointeur vers l'objet média concernant le commentaire
+* eventId | Objet Event | Pointeur vers l'objet Event concernant le moment dans lequel se trouve le commentaire
+* userId | Objet User | Pointeur vers l'objet User qui à posté le commentaire
 
 ##CommentAll
 
 /* Liste tous les commentaires d'un event */
+
 
 ##CommentAllForUser
 
