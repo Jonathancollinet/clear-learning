@@ -1,10 +1,10 @@
 site_name: wizzem api
 pages:
 - [index.md, Accueil]
-- [user.md, User]
-- [comment.md, Comment]
 - [event.md, Event]
-- [like.md, Like]
-- [media.md, Media]
+- [user.md, User]
 - [participant.md, Participant]
-theme: slate
+- [media.md, Media]
+- [comment.md, Comment]
+- [like.md, Like]
+theme: united
