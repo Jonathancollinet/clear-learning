@@ -6,13 +6,13 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 
 | Nom de la variable | Type attendu                 | Utilité|
 | ------------------ | ---------------------------- | ------ |
-* mediaId | String | ID du like
-* eventId | String | Pointeur vers l'objet Event concernant le moment dans lequel se trouve le média
-* userId | String | Pointeur vers l'objet User qui à liké le média
-* title | String | Titre du média
-* description | String | Description du média
-* type | String | Type du média ('photo', 'video', 'texte', 'gif', 'audio')
-* file | File | Photo de couverture (voir doc [parse save file](https://www.parse.com/docs/ios_guide#files/iOS))
+ mediaId | String | ID du like
+ eventId | String | Pointeur vers l'objet Event concernant le moment dans lequel se trouve le média
+ userId | String | Pointeur vers l'objet User qui à liké le média
+ title | String | Titre du média
+ description | String | Description du média
+ type | String | Type du média ('photo', 'video', 'texte', 'gif', 'audio')
+ file | File | Photo de couverture (voir doc [parse save file](https://www.parse.com/docs/ios_guide#files/iOS))
 
 ## MediaAll
 

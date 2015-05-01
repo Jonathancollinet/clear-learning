@@ -11,7 +11,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  comment | String | Le commentaire
  mediaId | String **{pointeur 'Media'}** | ID du média concernant le commentaire
  eventId | String **{pointeur 'Event'}** | ID de l'event concernant le moment dans lequel se trouve le commentaire
-* userId | String **{pointeur '_User'}** | ID de l'user qui à posté le commentaire
+ userId | String **{pointeur '_User'}** | ID de l'user qui à posté le commentaire
 
 ##CommentAll
 
