@@ -5,11 +5,13 @@ Voici le listing de toute les fonctions cloud disponible pour les commentaires.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-* commentId | String | ID du commentaire
-* comment | String | Le commentaire
-* mediaId | String | Pointeur vers l'objet média concernant le commentaire
-* eventId | String | Pointeur vers l'objet Event concernant le moment dans lequel se trouve le commentaire
-* userId | String | Pointeur vers l'objet User qui à posté le commentaire
+| Nom de la variable | Type attendu                 | Utilité|
+| ------------------ | ---------------------------- | ------ |
+ commentId | String | ID du commentaire
+ comment | String | Le commentaire
+ mediaId | String **{pointeur 'Media'}** | ID du média concernant le commentaire
+ eventId | String **{pointeur 'Event'}** | ID de l'event concernant le moment dans lequel se trouve le commentaire
+* userId | String **{pointeur '_User'}** | ID de l'user qui à posté le commentaire
 
 ##CommentAll
 

@@ -4,9 +4,11 @@ Voici le listing de toute les fonctions cloud disponible pour les participants.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-* participantId | String | ID du participant
-* eventId | String | Pointeur vers l'objet Event concernant le moment dans lequel se trouve le like
-* userId | String | Pointeur vers l'objet User qui à liké le média
+| Nom de la variable | Type attendu                 | Utilité|
+| ------------------ | ---------------------------- | ------ |
+ participantId | String | ID de la participation
+ eventId | String **{pointeur 'Event'}** | ID de l'event auquel le participant participe
+ userId | String **{pointeur '_User'}** | ID de l'user qui participe, pointeur ver l'user
 
 ## ParticipantList
 
