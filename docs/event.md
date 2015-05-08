@@ -4,7 +4,7 @@ Voici le listing de toute les fonctions cloud disponible pour les moments.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-| Nom de la variable | Type attendu                 | Utilité|
+| Nom de la variable | Type attendu                 | Description|
 | ------------------ | ---------------------------- | ------ |
  eventId | String | ID de l'event
  closed | Boolean | True si l'event est clos

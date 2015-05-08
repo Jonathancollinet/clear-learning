@@ -3,6 +3,7 @@
 * [`Accueil` - Cette page.](index.md)
 * [`User` - Les utilisateurs](user.md)
 * [`Friend` - Les amis](friend.md)
+* [`Friend` - Les notifications d'amis](n_friend.md)
 * [`Session` - Les sessions](session.md)
 * [`Comment` - Les commentaires](comment.md)
 * [`Event` - Les moments](event.md)
@@ -13,6 +14,12 @@
 ## MAJ de la doc
 
 ### 08/05
+
+(2)
+
+* Ajout des notifications friends.
+
+(1)
 
 * Ajout des friends.
 

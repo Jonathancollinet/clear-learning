@@ -5,7 +5,7 @@ Voici le listing de toute les fonctions cloud disponible pour les commentaires.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-| Nom de la variable | Type attendu                 | Utilité|
+| Nom de la variable | Type attendu                 | Description|
 | ------------------ | ---------------------------- | ------ |
  commentId | String | ID du commentaire
  comment | String | Le commentaire

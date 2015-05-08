@@ -4,7 +4,7 @@ Voici le listing de toute les fonctions cloud disponible pour les médias.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-| Nom de la variable | Type attendu                 | Utilité|
+| Nom de la variable | Type attendu                 | Description|
 | ------------------ | ---------------------------- | ------ |
  mediaId | String | ID du like
  eventId | String **{pointeur 'Event'}** | ID du moment concernant le moment dans lequel se trouve le média

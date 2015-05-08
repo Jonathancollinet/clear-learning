@@ -4,10 +4,10 @@ Voici le listing de toute les fonctions cloud disponible pour les friend.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-| Nom de la variable | Type attendu                 | Utilité|
+| Nom de la variable | Type attendu                 | Description|
 | ------------------ | ---------------------------- | ------ |
- userHim | String | ID du User qui fait la demande
- userHas | String | ID du User qui reçoit la demande
+ userHim | String | ID du User qui a fait la demande
+ userHas | String | ID du User qui a accepté la demande
 
 ##FriendGetByUser
 
@@ -24,6 +24,7 @@ Renvoi les données avec un tri du plus récent au plus vieux selon la date de c
 /* Ajoute un ami a un user */
 
 Créer une liaison entre userHim et userHas.
+
 **Vous devez effectuer une deuxième requete pour ajouter la liaison avec l'autre ami**
 
 Paramètres:
@@ -34,6 +35,8 @@ Paramètres:
 ##FriendRemoveByUser
 
 /* Supprime un ami d'un user avec les deux ID */
+
+**Supprime la liaison dans les deux sens donc pas besoin de l'appeler deux fois.**
 
 Paramètres:
 
@@ -46,6 +49,5 @@ Paramètres:
 
 Paramètres:
 
-* userHim
-* userHas
+* friendId
 

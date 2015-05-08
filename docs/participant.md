@@ -4,7 +4,7 @@ Voici le listing de toute les fonctions cloud disponible pour les participants.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-| Nom de la variable | Type attendu                 | Utilité|
+| Nom de la variable | Type attendu                 | Description|
 | ------------------ | ---------------------------- | ------ |
  participantId | String | ID de la participation
  eventId | String **{pointeur 'Event'}** | ID de l'event auquel le participant participe

@@ -4,7 +4,7 @@ Voici le listing de toute les fonctions cloud disponible pour les likes.
 
 Le schéma complet du json à envoyer aux fonctions cloud:
 
-| Nom de la variable | Type attendu                 | Utilité|
+| Nom de la variable | Type attendu                 | Description|
 | ------------------ | ---------------------------- | ------ |
  likeId | String | ID du like
  mediaId | String **{pointeur 'Media'}** | ID du média concernant le like
