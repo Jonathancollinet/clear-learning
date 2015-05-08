@@ -2,6 +2,7 @@ site_name: wizzem api
 pages:
 - [index.md, Accueil]
 - [user.md, User]
+- [friend.md, Friend]
 - [session.md, Session]
 - [event.md, Event]
 - [participant.md, Participant]

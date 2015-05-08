@@ -2,6 +2,7 @@
 
 * [`Accueil` - Cette page.](index.md)
 * [`User` - Les utilisateurs](user.md)
+* [`Friend` - Les amis](friend.md)
 * [`Session` - Les sessions](session.md)
 * [`Comment` - Les commentaires](comment.md)
 * [`Event` - Les moments](event.md)
