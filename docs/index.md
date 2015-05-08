@@ -11,6 +11,10 @@
 
 ## MAJ de la doc
 
+### 08/05
+
+* Ajout des friends.
+
 ### 01/05
 
 * Ajout des sessions.
