@@ -18,7 +18,9 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  title | String | Titre du moment
  picture | String **{pointeur 'Media'}** | ID du Média, photo de couverture, pointeur vers un média voir fiche média et voir doc [parse save file](https://www.parse.com/docs/ios_guide#files/iOS).
 
+----------------------
 ##EventAll
+----------------------
 
 /* Liste tous les events */
 
@@ -26,7 +28,9 @@ Pas de paramètres.
 
 Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date de début du wizz.
 
+----------------------
 ##EventGetByTitle
+----------------------
 
 /* Get un event par son titre */
 
@@ -34,7 +38,9 @@ Paramètre:
 
 * title
 
+----------------------
 ##EventGetById
+----------------------
 
 /* Get un event par son ID */
 
@@ -42,19 +48,25 @@ Paramètres:
 
 * eventId
 
+----------------------
 ##EventCreate
+----------------------
 
 /* Créer un event */
 
 Envoyer l'objet complet.
 
+----------------------
 ##EventEdit
+----------------------
 
 /* Edite l'event */
 
 Envoyer l'objet complet.
 
+----------------------
 ##EventClose
+----------------------
 
 /* Cloture l'event */
 
@@ -62,7 +74,9 @@ Paramètre:
 
 * eventId
 
+----------------------
 ##EventRemove
+----------------------
 
 /* Supprime l'event */
 

@@ -13,6 +13,11 @@
 
 ## MAJ de la doc
 
+### 09/05
+
+* modification des friends -> follow
+* lecture plus fluide
+
 ### 08/05
 
 (2)
