@@ -54,7 +54,7 @@ Paramètres:
 
 /* Créer un event */
 
-Envoyer l'objet complet.
+Envoyer le schéma JSON complet.
 
 ----------------------
 ##EventEdit
@@ -62,7 +62,7 @@ Envoyer l'objet complet.
 
 /* Edite l'event */
 
-Envoyer l'objet complet.
+Envoyer le schéma JSON complet.
 
 ----------------------
 ##EventClose
