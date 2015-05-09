@@ -18,6 +18,17 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  userHas | String | ID du User qui est suivi
 
 ----------------------
+##FriendSearchFollowing
+----------------------
+
+/* Récupère une liste de potentiel following en excluant lui meme et ses amis */
+
+Paramètres:
+
+* userHim
+* search
+
+----------------------
 ##FriendCountFollowing
 ----------------------
 

@@ -15,6 +15,12 @@
 
 ### 09/05
 
+(2)
+
+* ajout d'une fonction friend.
+
+(1)
+
 * modification des friends -> follow
 * lecture plus fluide
 
