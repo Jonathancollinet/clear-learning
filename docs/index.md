@@ -10,8 +10,14 @@
 * [`Like` - Les j'aimes/gemmes](like.md)
 * [`Media` - Les médias](media.md)
 * [`Participant` - Les participants](participant.md)
+* [`Error Codes` - Les code d'erreurs](error.md)
+
 
 ## MAJ de la doc
+
+### 10/05
+
+* ajout des codes d'erreur
 
 ### 09/05
 
