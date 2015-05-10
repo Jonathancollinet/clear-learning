@@ -3,11 +3,12 @@ pages:
 - [index.md, Accueil]
 - [user.md, User]
 - [friend.md, Friend]
-- [n_friend.md, Notification Friend]
+- [n_friend.md, N_Friend]
 - [session.md, Session]
 - [event.md, Event]
 - [participant.md, Participant]
 - [media.md, Media]
 - [comment.md, Comment]
 - [like.md, Like]
+- [error.md, Error]
 theme: united
