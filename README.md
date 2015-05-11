@@ -4,6 +4,14 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 11/05
+
+* Ajout de colonnes: Event:[nbMedia], Media:[nbLike, nbComment]
+
+Auto incrémente/décrémente lors d'une création ou destruction, directement dans les objets.
+
+Attention, éviter d'utiliser les fonctions count, veuillez utiliser les compteurs directement dans les objets global (get le nombre de like ? Non plus count dans Like, mais get('nbLike') dans l'objet Media).
+
 ### 10/05
 
 * ajout des codes d'erreur
