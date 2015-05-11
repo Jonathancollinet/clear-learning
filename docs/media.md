@@ -10,6 +10,8 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  eventId | String **{pointeur 'Event'}** | ID du moment concernant le moment dans lequel se trouve le média
  userId | String **{pointeur '_User'}** | ID de qui à liké le média
  title | String | Titre du média
+ nbLike | Number | Nombre de like actuel.
+ nbComment | Number | Nombre de comment actuel.
  description | String | Description du média
  type | String | Type du média ('photo', 'video', 'texte', 'gif', 'audio')
  file | File | Photo de couverture (voir doc [parse save file](https://www.parse.com/docs/ios_guide#files/iOS))

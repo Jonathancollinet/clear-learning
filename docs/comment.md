@@ -1,4 +1,3 @@
-
 # Les commentaires
 
 Voici le listing de toute les fonctions cloud disponible pour les commentaires.
@@ -63,6 +62,8 @@ Paramètres:
 ##CommentCountForMedia
 ----------------------
 
+**(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ UTILISER LE CHAMPS nbComment DANS L'OBJET MEDIA)**
+
 /* Compte le nombre de commentaires d'un média */
 
 Paramètres:
@@ -73,6 +74,8 @@ Paramètres:
 ----------------------
 ##CommentCountForEvent
 ----------------------
+
+**(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ LIMITER LUTILISATION DE CETTE FONCTION)**
 
 /* Compte le nombre de commentaires d'un event */
 

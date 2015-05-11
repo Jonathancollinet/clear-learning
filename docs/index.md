@@ -3,7 +3,7 @@
 * [`Accueil` - Cette page.](index.md)
 * [`User` - Les utilisateurs](user.md)
 * [`Friend` - Les amis](friend.md)
-* [`Friend` - Les notifications d'amis](n_friend.md)
+* [`N_Friend` - Les notifications d'amis](n_friend.md)
 * [`Session` - Les sessions](session.md)
 * [`Comment` - Les commentaires](comment.md)
 * [`Event` - Les moments](event.md)
@@ -14,6 +14,14 @@
 
 
 ## MAJ de la doc
+
+### 11/05
+
+* Ajout de colonnes: Event:[nbMedia], Media:[nbLike, nbComment]
+
+Auto incrémente/décrémente lors d'une création ou destruction, directement dans les objets.
+
+Attention, éviter d'utiliser les fonctions count, veuillez utiliser les compteurs directement dans les objets global (get le nombre de like ? Non plus count dans Like, mais get('nbLike') dans l'objet Media).
 
 ### 10/05
 

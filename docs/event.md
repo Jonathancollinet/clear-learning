@@ -12,6 +12,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  description | String | Description du moment
  start | String | Date de début ("MM/DD/YYYY HH:MM")
  end | String | Date de fin ("MM/DD/YYYY HH:MM")
+ nbMedia | Number | Nombre de media actuel dans le moment.
  nbParticipant | Number | Nombre de participant actuel.
  nbMaxParticipant | Number | Nombre maximum de participants.
  public | Boolean | True si le moment est public

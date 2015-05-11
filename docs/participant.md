@@ -45,6 +45,8 @@ Paramètres:
 ## ParticipantCountForEvent
 ----------------------
 
+**(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ UTILISER LE CHAMPS nbParticipant DANS L'OBJET EVENT)**
+
 /* Compte le nombre de participants d'un event */
 
 Paramètres:

@@ -59,6 +59,8 @@ Paramètres:
 ## LikeCountForMedia
 ----------------------
 
+**(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ UTILISER LE CHAMPS nbLike DANS L'OBJET MEDIA)**
+
 /* Compte le nombre de likes d'un média */
 
 Paramètres:
@@ -69,6 +71,8 @@ Paramètres:
 ----------------------
 ## LikeCountForEvent
 ----------------------
+
+**(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ LIMITER LUTILISATION DE CETTE FONCTION)**
 
 /* Compte le nombre de likes d'un event */
 
