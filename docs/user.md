@@ -8,4 +8,26 @@ Voir ensuite la documentation lié aux USERS.
 
 Toutes les informations relatives au login/signup reset password etc etc etc, l'envoi de mail est déjà géré par Parse, elle est désactivé par défault et nous pouvons l'activer sur demande.
 
-<img src="../images/doc_ios.jpeg" alt="Doc" style="width: 800px;"/>
+<img src="../images/doc_ios.jpeg" alt="Doc" style="width: 400px;"/>
+
+# Fonction custom
+
+----------------------
+## UserGetFollowing
+----------------------
+
+/* Get les following d'un user, renvoi les donnée sous la forme d'un array d'User */
+
+Paramètres:
+
+* userHim
+
+----------------------
+## UserGetFollowed
+----------------------
+
+/* Get les followed d'un user, renvoi les donnée sous la forme d'un array d'User */
+
+Paramètres:
+
+* userHim

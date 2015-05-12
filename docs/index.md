@@ -15,6 +15,10 @@
 
 ## MAJ de la doc
 
+### 12/05
+
+* ajout des fonctions custom dans la partie User.
+
 ### 11/05
 
 * Ajout de colonnes: Event:[nbMedia], Media:[nbLike, nbComment]

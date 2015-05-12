@@ -4,6 +4,10 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 12/05
+
+* ajout des fonctions custom dans la partie User.
+
 ### 11/05
 
 * Ajout de colonnes: Event:[nbMedia], Media:[nbLike, nbComment]
