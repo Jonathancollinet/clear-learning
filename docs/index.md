@@ -15,6 +15,10 @@
 
 ## MAJ de la doc
 
+### 13/05
+
+* La date de fin d'un moment n'est plus setable, elle est défini a : DateStart + 1 mois
+
 ### 12/05
 
 * ajout des fonctions custom dans la partie User.
