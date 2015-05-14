@@ -15,6 +15,10 @@
 
 ## MAJ de la doc
 
+### 14/05
+
+* ajout de nbFollowing & nbFollower dans l'objet User qui permette d'éviter de faire des counts du côté des Friends
+
 ### 13/05
 
 * La date de fin d'un moment n'est plus setable, elle est défini a : DateStart + 1 mois
