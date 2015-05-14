@@ -18,6 +18,8 @@ Toutes les informations relatives au login/signup reset password etc etc etc, l'
 
 /* Get les following d'un user, renvoi les donnée sous la forme d'un array d'User */
 
+Renvoi les resultats trié par true_username
+
 Paramètres:
 
 * userHim
@@ -27,6 +29,8 @@ Paramètres:
 ----------------------
 
 /* Get les followed d'un user, renvoi les donnée sous la forme d'un array d'User */
+
+Renvoi les resultats trié par true_username
 
 Paramètres:
 
