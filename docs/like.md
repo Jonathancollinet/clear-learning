@@ -22,6 +22,10 @@ Paramètres:
 * userId
 * mediaId
 
+Renvoi:
+
+	{liked: true, mediaId: "IOi7mMdz"}
+
 ----------------------
 ## LikeAdd
 ----------------------

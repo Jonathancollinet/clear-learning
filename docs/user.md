@@ -35,3 +35,15 @@ Renvoi les resultats trié par true_username
 Paramètres:
 
 * userHim
+
+----------------------
+## UserGetById
+----------------------
+
+/* Get infos d'un user */
+
+Renvoi les resultats trié par true_username
+
+Paramètres:
+
+* userId

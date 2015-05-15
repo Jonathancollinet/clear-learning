@@ -8,6 +8,8 @@ http://www.mkdocs.org/#installation
 
 * Ajout de la fonction EventGetByCity
 * Ajout du champ city dans Event (string)
+* Ajout de UserGetById.
+* LikeCurrentUser renvoi maintenant {liked: Boolean, mediaId: mediaId}
 
 ### 14/05
 
