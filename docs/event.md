@@ -1,4 +1,4 @@
-# Les moments/wizz
+# Les moments/wizz/event
 
 Voici le listing de toute les fonctions cloud disponible pour les moments.
 
@@ -9,6 +9,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  eventId | String | ID de l'event
  closed | Boolean | True si l'event est clos
  creator | String **{pointeur '_User'}** | ID du user qui à créer le moment, pointeur vers User
+ city | String | Ville du moment
  description | String | Description du moment
  start | String | Date de début ("MM/DD/YYYY HH:MM")
  end | String | Date de fin ("MM/DD/YYYY HH:MM")
@@ -34,6 +35,16 @@ Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date d
 ----------------------
 
 /* Get un event par son titre */
+
+Paramètre:
+
+* title
+
+----------------------
+##EventGetByCity
+----------------------
+
+/* Get un event par sa ville */
 
 Paramètre:
 

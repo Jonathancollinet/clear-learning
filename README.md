@@ -4,6 +4,11 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 15/05
+
+* Ajout de la fonction EventGetByCity
+* Ajout du champ city dans Event (string)
+
 ### 14/05
 
 * ajout de nbFollowing & nbFollower dans l'objet User qui permette d'éviter de faire des counts du côté des Friends
