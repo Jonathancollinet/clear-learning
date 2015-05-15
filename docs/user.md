@@ -37,13 +37,11 @@ Paramètres:
 * userHim
 
 ----------------------
-## UserGetById
+## UserGetByTrueUsername
 ----------------------
 
-/* Get infos d'un user */
-
-Renvoi les resultats trié par true_username
+/* Get infos d'un user par son true_username */
 
 Paramètres:
 
-* userId
+* true_username
