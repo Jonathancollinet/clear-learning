@@ -16,6 +16,8 @@ Toutes les informations relatives au login/signup reset password etc etc etc, l'
 ## UserGetFollowing
 ----------------------
 
+**Pagination disponible**
+
 /* Get les following d'un user, renvoi les donnée sous la forme d'un array d'User */
 
 Renvoi les resultats trié par true_username
@@ -27,6 +29,8 @@ Paramètres:
 ----------------------
 ## UserGetFollowed
 ----------------------
+
+**Pagination disponible**
 
 /* Get les followed d'un user, renvoi les donnée sous la forme d'un array d'User */
 

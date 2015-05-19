@@ -4,6 +4,12 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 19/05
+
+* Ajout de la pagination dans la plupart des getters
+
+Il faut renseigner les variables 'skip' et 'limit' pour utiliser la pagination, si ce n'est pas renseigné, renvoi tout les résultats.
+
 ### 15/05
 
 * Ajout de la fonction EventGetByCity

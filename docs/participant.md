@@ -14,6 +14,8 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 ## ParticipantList
 ----------------------
 
+**Pagination disponible**
+
 /* Liste tous les participants d'un event */
 
 Paramètres:

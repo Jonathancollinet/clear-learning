@@ -24,6 +24,8 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 ##EventAll
 ----------------------
 
+**Pagination disponible**
+
 /* Liste tous les events */
 
 Pas de paramètres.
@@ -34,6 +36,8 @@ Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date d
 ##EventGetByTitle
 ----------------------
 
+**Pagination disponible**
+
 /* Get un event par son titre */
 
 Paramètre:
@@ -43,6 +47,8 @@ Paramètre:
 ----------------------
 ##EventGetByCity
 ----------------------
+
+**Pagination disponible**
 
 /* Get un event par sa ville */
 

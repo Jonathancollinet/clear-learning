@@ -20,6 +20,8 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 ## MediaAll
 ----------------------
 
+**Pagination disponible**
+
 /* Liste les média d'un event */
 
 Paramètres:

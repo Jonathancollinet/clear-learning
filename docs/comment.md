@@ -16,6 +16,8 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 ##CommentAll
 ----------------------
 
+**Pagination disponible**
+
 /* Liste tous les commentaires d'un event */
 
 Paramètres:
@@ -26,6 +28,8 @@ Paramètres:
 ----------------------
 ##CommentAllForUser
 ----------------------
+
+**Pagination disponible**
 
 /* Liste tous les commentaires d'un user d'un event */
 

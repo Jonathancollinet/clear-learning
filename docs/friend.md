@@ -52,6 +52,8 @@ Paramètres:
 ##FriendGetFollowingByUser
 ----------------------
 
+**Pagination disponible**
+
 /* Liste les following d'un user */
 
 Paramètres:
@@ -63,6 +65,8 @@ Renvoi les données avec un tri du plus récent au plus vieux selon la date de c
 ----------------------
 ##FriendGetFollowedByUser
 ----------------------
+
+**Pagination disponible**
 
 /* Liste les followed d'un user */
 
