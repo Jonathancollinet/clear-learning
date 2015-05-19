@@ -11,8 +11,8 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  creator | String **{pointeur '_User'}** | ID du user qui à créer le moment, pointeur vers User
  city | String | Ville du moment
  description | String | Description du moment
- start | String | Date de début ("MM/DD/YYYY HH:MM")
- end | String | Date de fin ("MM/DD/YYYY HH:MM")
+ start | String | Date de début ("MM/DD/YYYY HH:MM Z")
+ end | String | Date de fin ("MM/DD/YYYY HH:MM Z")
  nbMedia | Number | Nombre de media actuel dans le moment.
  nbParticipant | Number | Nombre de participant actuel.
  nbMaxParticipant | Number | Nombre maximum de participants.
