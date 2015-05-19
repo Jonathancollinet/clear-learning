@@ -45,6 +45,18 @@ Paramètre:
 * title
 
 ----------------------
+##EventGetByUser
+----------------------
+
+**Pagination disponible**
+
+/* Get les event par l'userId */
+
+Paramètre:
+
+* userId
+
+----------------------
 ##EventGetByCity
 ----------------------
 
@@ -54,7 +66,7 @@ Paramètre:
 
 Paramètre:
 
-* title
+* city
 
 ----------------------
 ##EventGetById

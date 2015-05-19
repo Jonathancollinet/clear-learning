@@ -29,6 +29,28 @@ Paramètres:
 * search
 
 ----------------------
+##FriendIsFollowing
+----------------------
+
+/* True/False si userHim suit userHas */
+
+Paramètres:
+
+* userHim
+* userHas
+
+----------------------
+##FriendIsFollowed
+----------------------
+
+/* True/False si userHim est suivi par userHas */
+
+Paramètres:
+
+* userHim
+* userHas
+
+----------------------
 ##FriendCountFollowing
 ----------------------
 
