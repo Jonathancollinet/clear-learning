@@ -16,6 +16,23 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  type | String | Type du média ('photo', 'video', 'texte', 'gif', 'audio')
  file | File | Photo de couverture (voir doc [parse save file](https://www.parse.com/docs/ios_guide#files/iOS))
 
+
+----------------------
+## Media.afterSave
+----------------------
+
+* Incrément le nombre de médias lié à l'évènement
+
+----------------------
+## Media.afterDelete
+----------------------
+
+* Décrémente le nombre de médias lié à l'évènement
+* Supprime les commentaires liés au média
+* Supprime les likes liés au média
+* Supprime le média et la miniature (si existant) des fichiers
+
+
 ----------------------
 ## MediaAll
 ----------------------
