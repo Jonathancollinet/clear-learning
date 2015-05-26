@@ -20,6 +20,14 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  title | String | Titre du moment
  picture | String **{pointeur 'Media'}** | ID du Média, photo de couverture, pointeur vers un média voir fiche média et voir doc [parse save file](https://www.parse.com/docs/ios_guide#files/iOS).
 
+
+----------------------
+##Event.afterDelete
+----------------------
+
+* Supprime tous les [médias](media.md#mediaafterdelete) liés à l'évènement
+
+
 ----------------------
 ##EventAll
 ----------------------
