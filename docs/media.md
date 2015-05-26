@@ -32,7 +32,6 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 * Supprime les likes liés au média
 * Supprime le média et la miniature (si existant) des fichiers
 
-
 ----------------------
 ## MediaAll
 ----------------------

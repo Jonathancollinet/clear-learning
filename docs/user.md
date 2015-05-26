@@ -13,6 +13,12 @@ Toutes les informations relatives au login/signup reset password etc etc etc, l'
 # Fonction custom
 
 ----------------------
+## User.beforeSave
+----------------------
+
+* check si le true_username est bien formaté et si il n'est pas déjà existant
+
+----------------------
 ## UserGetFollowing
 ----------------------
 

@@ -13,6 +13,12 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  userId | String **{pointeur '_User'}** | ID de l'user qui à posté le commentaire
 
 ----------------------
+## Comment.afterSave
+----------------------
+
+* Incrément le nombre de commentaire lié au média
+
+----------------------
 ##CommentAll
 ----------------------
 
@@ -57,6 +63,8 @@ Paramètres:
 ----------------------
 
 /* Supprime un commentaires d'un user */
+
+Décrémente le nbComment de l'objet Media dans lequel se trouve le commentaire
 
 Paramètres:
 

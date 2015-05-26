@@ -4,6 +4,12 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 26/05
+
+* ajout de LikeGetByArrayMedia, EventCount
+
+Ajout des After/Before Save & After/before Destroy dans Comment/Like/Event/Media/User
+
 ### 19/05
 
 (2)

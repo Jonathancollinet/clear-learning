@@ -41,6 +41,14 @@ Pas de paramètres.
 Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date de début du wizz.
 
 ----------------------
+##EventCount
+----------------------
+
+/* Compte tous les events */
+
+Pas de paramètres.
+
+----------------------
 ##EventGetByTitle
 ----------------------
 

@@ -12,6 +12,12 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  userId | String **{pointeur '_User'}** | ID de l'user qui à liké le média
 
 ----------------------
+## Like.afterSave
+----------------------
+
+* Incrément le nombre de likes lié au média
+
+----------------------
 ## LikeCurrentUser
 ----------------------
 
@@ -39,10 +45,22 @@ Paramètres:
 * mediaId
 
 ----------------------
+## LikeGetByArrayMedia
+----------------------
+
+/* Renvoi les média que le current user à liké dans un set de média donné */
+
+Paramètres:
+
+* mediaIds -> correspond à un array contenant des objets Media
+
+----------------------
 ## LikeRemove
 ----------------------
 
 /* Supprime un like d'un user à un média */
+
+Décrémente le nbLike de l'objet Media dans lequel se trouve le like
 
 Paramètres:
 
@@ -54,6 +72,8 @@ Paramètres:
 ----------------------
 
 /* Supprime un like d'un user à un média par son ID */
+
+Décrémente le nbLike de l'objet Media dans lequel se trouve le like
 
 Paramètres:
 

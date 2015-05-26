@@ -11,6 +11,12 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  userId | String **{pointeur '_User'}** | ID de l'user qui participe, pointeur ver l'user
 
 ----------------------
+## Participant.afterSave
+----------------------
+
+* Incrément le nombre de participant lié à l'évènement
+
+----------------------
 ## ParticipantList
 ----------------------
 
