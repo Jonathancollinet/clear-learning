@@ -1,9 +1,9 @@
 site_name: wizzem api
 pages:
-- [index.md, Accueil]
+- [index.md, Home]
 - [user.md, User]
 - [friend.md, Friend]
-- [n_friend.md, N_Friend]
+- [notification.md, Notification]
 - [session.md, Session]
 - [event.md, Event]
 - [participant.md, Participant]
@@ -11,4 +11,4 @@ pages:
 - [comment.md, Comment]
 - [like.md, Like]
 - [error.md, Error]
-theme: united
+theme: 'spacelab'

@@ -4,6 +4,16 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 08/06
+
+* Mise à jour du thème mon gars!
+* Modification de:
+	* N_Friend -> Notification
+	* Friend
+	* User
+	* Event
+	* Participant
+
 ### 26/05
 
 * ajout de LikeGetByArrayMedia, EventCount

@@ -8,6 +8,8 @@ Voici le listing de toute les fonctions cloud disponible pour les friend.
 
 **followed**: **X si X est suivi par Y**
 
+Plus simplement: userHim -> from ; userHas -> to
+
 ----------------------
 
 Le schéma complet du json à envoyer aux fonctions cloud:
@@ -16,6 +18,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 | ------------------ | ---------------------------- | ------ |
  userHim | String | ID du User qui suit
  userHas | String | ID du User qui est suivi
+ status | String | 'pending', 'accepted', ('refused' -> pour le moment on delete le friend si c'est ce cas)
 
 ----------------------
 ##FriendSearchFollowing
@@ -25,8 +28,45 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 
 Paramètres:
 
-* userHim
 * search
+
+----------------------
+##FriendIsPending
+----------------------
+
+/* check si le currentUser à une demande en attente sur le user to */
+
+Paramètres:
+
+* userHas
+* search
+
+----------------------
+##FriendHasPending
+----------------------
+
+/* check si le currentUser à une demande en attente sur le user to */
+
+Paramètres:
+
+* userHim
+
+----------------------
+##FriendSetStatus
+----------------------
+
+/* Set le status ("accepted", "refused", "pending") */
+
+Paramètres:
+
+* friendId
+* status
+
+ou
+
+* userHim
+* userHas
+* status
 
 ----------------------
 ##FriendIsFollowing
@@ -125,14 +165,4 @@ Paramètres:
 
 * userHim
 * userHas
-
-----------------------
-##FriendRemoveById
-----------------------
-
-/* Supprime un following d'un user par l'id de l'objet friend */
-
-Paramètres:
-
-* friendId
 

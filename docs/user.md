@@ -19,6 +19,18 @@ Toutes les informations relatives au login/signup reset password etc etc etc, l'
 * check si le true_username est bien formaté et si il n'est pas déjà existant
 
 ----------------------
+## UserGetById
+----------------------
+
+**Pagination disponible**
+
+/* Get infos d'un user par son id */
+
+Paramètres:
+
+* userId
+
+----------------------
 ## UserGetFollowing
 ----------------------
 
@@ -26,7 +38,7 @@ Toutes les informations relatives au login/signup reset password etc etc etc, l'
 
 /* Get les following d'un user, renvoi les donnée sous la forme d'un array d'User */
 
-Renvoi les resultats trié par true_username
+Renvoi les resultats trié par createdAt descendant.
 
 Paramètres:
 
@@ -40,7 +52,7 @@ Paramètres:
 
 /* Get les followed d'un user, renvoi les donnée sous la forme d'un array d'User */
 
-Renvoi les resultats trié par true_username
+Renvoi les resultats trié par createdAt descendant.
 
 Paramètres:
 

@@ -19,6 +19,8 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  public | Boolean | True si le moment est public
  title | String | Titre du moment
  picture | String **{pointeur 'Media'}** | ID du Média, photo de couverture, pointeur vers un média voir fiche média et voir doc [parse save file](https://www.parse.com/docs/ios_guide#files/iOS).
+ author_approval | Boolean | True/false si l'option 'sur acceptation du créateur' est activée.
+ sharing | Boolean | True/false si l'option 'partage autorisé' est activée.
 
 
 ----------------------
@@ -59,6 +61,18 @@ Pas de paramètres.
 Paramètre:
 
 * title
+
+----------------------
+##EventGetByCreator
+----------------------
+
+**Pagination disponible**
+
+/* Get les event par le creator */
+
+Paramètre:
+
+* creator
 
 ----------------------
 ##EventGetByUser
@@ -115,6 +129,16 @@ Envoyer le schéma JSON complet.
 ----------------------
 
 /* Cloture l'event */
+
+Paramètre:
+
+* eventId
+
+----------------------
+##EventOpen
+----------------------
+
+/* Open l'event */
 
 Paramètre:
 
