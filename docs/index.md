@@ -16,6 +16,10 @@ Voir la documentation de votre SDK chez parse pour savoir comment appeler une fo
 -----------------
 ## MAJ de la doc
 
+### 15/06
+
+* Ajout de la fonction cloud EventGetParticipating
+
 ### 08/06
 
 * Mise à jour du thème mon gars!

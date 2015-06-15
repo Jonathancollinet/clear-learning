@@ -75,6 +75,16 @@ Paramètre:
 * creator
 
 ----------------------
+##EventGetParticipating
+----------------------
+
+**Pagination disponible**
+
+/* Get les event auquel l'utilisateur courant participe */
+
+Paramètre: null
+
+----------------------
 ##EventGetByUser
 ----------------------
 
