@@ -29,7 +29,6 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 
 * Supprime tous les [médias](media.md#mediaafterdelete) liés à l'évènement
 
-
 ----------------------
 ##EventAll
 ----------------------
@@ -153,3 +152,12 @@ Paramètre:
 Paramètre:
 
 * eventId
+
+---------------------
+##EventGetLast
+---------------------
+
+/* Get le last event auquel le current participe et qui est encore ouvert/pas terminé */
+
+Pas de paramètres.
+

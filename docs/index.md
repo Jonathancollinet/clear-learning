@@ -16,6 +16,11 @@ Voir la documentation de votre SDK chez parse pour savoir comment appeler une fo
 -----------------
 ## MAJ de la doc
 
+### 16/06
+
+* Ajout d'une fonction dans Event
+* Ajout de l'objet City
+
 ### 08/06
 
 * Mise à jour du thème mon gars!

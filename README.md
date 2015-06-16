@@ -4,6 +4,11 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 16/06
+
+* Ajout d'une fonction dans Event
+* Ajout de l'objet City
+
 ### 08/06
 
 * Mise à jour du thème mon gars!
