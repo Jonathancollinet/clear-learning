@@ -21,6 +21,10 @@ Voir la documentation de votre SDK chez parse pour savoir comment appeler une fo
 * Ajout d'une fonction dans Event
 * Ajout de l'objet City
 
+### 15/06
+
+* Ajout de la fonction cloud EventGetParticipating
+
 ### 08/06
 
 * Mise à jour du thème mon gars!
