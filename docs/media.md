@@ -38,7 +38,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 
 **Pagination disponible**
 
-/* Liste les média d'un event */
+*Liste les média d'un event*
 
 Paramètres:
 
@@ -48,7 +48,7 @@ Paramètres:
 ## MediaAdd
 ----------------------
 
-/* Ajoute un média a un event */
+*Ajoute un média a un event*
 
 Paramètres:
 
@@ -62,7 +62,7 @@ Paramètres:
 ## MediaEdit
 ----------------------
 
-/* Edite le média */
+*Edite le média*
 
 Paramètres:
 
@@ -76,7 +76,7 @@ Paramètres:
 ## MediaRemove
 ----------------------
 
-/* Supprime un média a un event */
+*Supprime un média a un event*
 
 Paramètres:
 
@@ -86,7 +86,7 @@ Paramètres:
 ## MediaCountForEvent
 ----------------------
 
-/* Compte le nombre de média d'un event */
+*Compte le nombre de média d'un event*
 
 Paramètres:
 

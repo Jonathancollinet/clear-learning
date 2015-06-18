@@ -15,7 +15,7 @@ nbWizz est incrémenté à la création de wizz par rapport a la ville renseign�
 ## checkAddress
 ----------------------
 
-/* Retourne la liste des adresses qui match la recherche */
+*Retourne la liste des adresses qui match la recherche*
 
 Paramètres:
 

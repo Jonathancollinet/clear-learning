@@ -24,7 +24,7 @@ Toutes les informations relatives au login/signup reset password etc etc etc, l'
 
 **Pagination disponible**
 
-/* Get infos d'un user par son id */
+*Get infos d'un user par son id*
 
 Paramètres:
 
@@ -36,7 +36,7 @@ Paramètres:
 
 **Pagination disponible**
 
-/* Get les following d'un user, renvoi les donnée sous la forme d'un array d'User */
+*Get les following d'un user, renvoi les donnée sous la forme d'un array d'User*
 
 Renvoi les resultats trié par createdAt descendant.
 
@@ -50,7 +50,7 @@ Paramètres:
 
 **Pagination disponible**
 
-/* Get les followed d'un user, renvoi les donnée sous la forme d'un array d'User */
+*Get les followed d'un user, renvoi les donnée sous la forme d'un array d'User*
 
 Renvoi les resultats trié par createdAt descendant.
 
@@ -62,7 +62,7 @@ Paramètres:
 ## UserGetByTrueUsername
 ----------------------
 
-/* Get infos d'un user par son true_username */
+*Get infos d'un user par son true_username*
 
 Paramètres:
 

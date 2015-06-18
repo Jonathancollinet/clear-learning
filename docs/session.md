@@ -8,7 +8,7 @@ Voir la [documentation de Parse](https://www.parse.com/docs/ios_guide#sessions/i
 ## SessionGetForUser
 ----------------------
 
-/* Récupère les sessions d'un user */
+*Récupère les sessions d'un user*
 
 Paramètres:
 

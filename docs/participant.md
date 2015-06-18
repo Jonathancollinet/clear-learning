@@ -19,7 +19,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 
 **Pagination disponible**
 
-/* Liste tous les participants d'un event */
+*Liste tous les participants d'un event*
 
 Paramètres:
 
@@ -29,7 +29,7 @@ Paramètres:
 ## ParticipantAdd
 ----------------------
 
-/* Ajoute un participant à l'event */
+*Ajoute un participant à l'event*
 
 Paramètres:
 
@@ -40,7 +40,7 @@ Paramètres:
 ## ParticipantIsPending
 ----------------------
 
-/* Renvoi l'objet si le current user a une participation en attente sur un event, sinon renvoi false */
+*Renvoi l'objet si le current user a une participation en attente sur un event, sinon renvoi false*
 
 Paramètres:
 
@@ -51,7 +51,7 @@ Paramètres:
 ## ParticipantSetStatus
 ----------------------
 
-/* Set le status ("accepted", "refused", "pending") */
+*Set le status ("accepted", "refused", "pending")*
 
 Si paramètre status == 'accepted' alors le Event.nbParticipant += 1;
 
@@ -70,7 +70,7 @@ ou
 ## ParticipantRemove
 ----------------------
 
-/* Supprime un participant à l'event */
+*Supprime un participant à l'event*
 
 Paramètres:
 
@@ -82,7 +82,7 @@ Paramètres:
 
 **(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ UTILISER LE CHAMPS nbParticipant DANS L'OBJET EVENT)**
 
-/* Compte le nombre de participants d'un event */
+*Compte le nombre de participants d'un event*
 
 Paramètres:
 

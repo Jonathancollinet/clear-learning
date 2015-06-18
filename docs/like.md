@@ -21,7 +21,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 ## LikeCurrentUser
 ----------------------
 
-/* Check si le user actuel a liké le média */
+*Check si le user actuel a liké le média*
 
 Paramètres:
 
@@ -36,7 +36,7 @@ Renvoi:
 ## LikeAdd
 ----------------------
 
-/* Ajoute un like d'un user à un média */
+*Ajoute un like d'un user à un média*
 
 Paramètres:
 
@@ -48,7 +48,7 @@ Paramètres:
 ## LikeGetByArrayMedia
 ----------------------
 
-/* Renvoi les média que le current user à liké dans un set de média donné */
+*Renvoi les média que le current user à liké dans un set de média donné*
 
 Paramètres:
 
@@ -58,7 +58,7 @@ Paramètres:
 ## LikeRemove
 ----------------------
 
-/* Supprime un like d'un user à un média */
+*Supprime un like d'un user à un média*
 
 Décrémente le nbLike de l'objet Media dans lequel se trouve le like
 
@@ -71,7 +71,7 @@ Paramètres:
 ## LikeRemoveById
 ----------------------
 
-/* Supprime un like d'un user à un média par son ID */
+*Supprime un like d'un user à un média par son ID*
 
 Décrémente le nbLike de l'objet Media dans lequel se trouve le like
 
@@ -85,7 +85,7 @@ Paramètres:
 
 **(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ UTILISER LE CHAMPS nbLike DANS L'OBJET MEDIA)**
 
-/* Compte le nombre de likes d'un média */
+*Compte le nombre de likes d'un média*
 
 Paramètres:
 
@@ -98,7 +98,7 @@ Paramètres:
 
 **(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ LIMITER LUTILISATION DE CETTE FONCTION)**
 
-/* Compte le nombre de likes d'un event */
+*Compte le nombre de likes d'un event*
 
 Paramètres:
 

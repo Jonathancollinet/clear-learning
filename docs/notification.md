@@ -19,7 +19,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 ##N_Add
 ----------------------
 
-/*Créer une notification */
+/*Créer une notification*
 
 Paramètres:
 
@@ -33,7 +33,7 @@ Les variables 'link', 'friendId', 'participantId' sont optionnelles.
 
 **Pagination disponible**
 
-/* Récupère les alertes du current */
+*Récupère les alertes du current*
 
 Pas de paramètres.
 
@@ -43,7 +43,7 @@ Pas de paramètres.
 
 **Pagination disponible**
 
-/* Récupère les invitations du current */
+*Récupère les invitations du current*
 
 Pas de paramètres.
 
@@ -51,7 +51,7 @@ Pas de paramètres.
 ##N_Viewed
 ----------------------
 
-/* Set viewed à true */
+*Set viewed à true*
 
 Paramètres:
 
@@ -61,7 +61,7 @@ Paramètres:
 ##N_Remove
 ----------------------
 
-/* remove une notif */
+*remove une notif*
 
 Paramètres:
 
