@@ -10,3 +10,13 @@ Le schéma complet du json à envoyer aux fonctions cloud:
  nbWizz | Number | Compteur de wizz pour la ville
 
 nbWizz est incrémenté à la création de wizz par rapport a la ville renseignée.
+
+----------------------
+## checkAddress
+----------------------
+
+/* Retourne la liste des adresses qui match la recherche */
+
+Paramètres:
+
+* q
