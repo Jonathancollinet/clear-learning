@@ -24,7 +24,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 
 **Pagination disponible**
 
-/* Liste tous les commentaires d'un event */
+*Liste tous les commentaires d'un event*
 
 Paramètres:
 
@@ -37,7 +37,7 @@ Paramètres:
 
 **Pagination disponible**
 
-/* Liste tous les commentaires d'un user d'un event */
+*Liste tous les commentaires d'un user d'un event*
 
 Paramètres:
 
@@ -49,7 +49,7 @@ Paramètres:
 ##CommentAdd
 ----------------------
 
-/* Ajoute un commentaires d'un user */
+*Ajoute un commentaires d'un user*
 
 Paramètres:
 
@@ -62,7 +62,7 @@ Paramètres:
 ##CommentRemove
 ----------------------
 
-/* Supprime un commentaires d'un user */
+*Supprime un commentaires d'un user*
 
 Décrémente le nbComment de l'objet Media dans lequel se trouve le commentaire
 
@@ -76,7 +76,7 @@ Paramètres:
 
 **(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ UTILISER LE CHAMPS nbComment DANS L'OBJET MEDIA)**
 
-/* Compte le nombre de commentaires d'un média */
+*Compte le nombre de commentaires d'un média*
 
 Paramètres:
 
@@ -89,7 +89,7 @@ Paramètres:
 
 **(ATTENTION, FONCTION LENTE ET LIMITEE, VEUILLEZ LIMITER LUTILISATION DE CETTE FONCTION)**
 
-/* Compte le nombre de commentaires d'un event */
+*Compte le nombre de commentaires d'un event*
 
 Paramètres:
 

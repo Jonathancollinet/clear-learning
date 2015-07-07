@@ -20,10 +20,14 @@ Voir la documentation de votre SDK chez parse pour savoir comment appeler une fo
 
 * Ajout de deux fonctions dans Event
 
+### 18/06
+
+* Ajout de la fonction cloud [checkAddress](city.md#checkaddress)
+
 ### 16/06
 
 * Ajout d'une fonction dans Event
-* Ajout de l'objet City
+* Ajout de l'objet [City](city.md)
 
 ### 15/06
 

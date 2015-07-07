@@ -35,7 +35,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 
 **Pagination disponible**
 
-/* Liste tous les events */
+*Liste tous les events*
 
 Pas de paramètres.
 
@@ -72,7 +72,7 @@ Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date d
 ##EventCount
 ----------------------
 
-/* Compte tous les events */
+*Compte tous les events*
 
 Pas de paramètres.
 
@@ -82,7 +82,7 @@ Pas de paramètres.
 
 **Pagination disponible**
 
-/* Get un event par son titre */
+*Get un event par son titre*
 
 Paramètre:
 
@@ -94,7 +94,8 @@ Paramètre:
 
 **Pagination disponible**
 
-/* Get les event par le creator */
+*Recupere les evenements crees par l'utilisateur `creator` en prennant
+   en compte la confidentialite des evenements et des comptes*
 
 Paramètre:
 
@@ -106,7 +107,7 @@ Paramètre:
 
 **Pagination disponible**
 
-/* Get les event auquel l'utilisateur courant participe */
+*Get les event auquel l'utilisateur courant participe*
 
 Paramètre: null
 
@@ -116,7 +117,7 @@ Paramètre: null
 
 **Pagination disponible**
 
-/* Get les event par l'userId */
+*Get les event par l'userId*
 
 Paramètre:
 
@@ -128,7 +129,7 @@ Paramètre:
 
 **Pagination disponible**
 
-/* Get un event par sa ville */
+*Get un event par sa ville*
 
 Paramètre:
 
@@ -138,7 +139,7 @@ Paramètre:
 ##EventGetById
 ----------------------
 
-/* Get un event par son ID */
+*Get un event par son ID*
 
 Paramètres:
 
@@ -148,7 +149,7 @@ Paramètres:
 ##EventCreate
 ----------------------
 
-/* Créer un event */
+*Créer un event*
 
 Envoyer le schéma JSON complet.
 
@@ -156,7 +157,7 @@ Envoyer le schéma JSON complet.
 ##EventEdit
 ----------------------
 
-/* Edite l'event */
+*Edite l'event*
 
 Envoyer le schéma JSON complet.
 
@@ -164,7 +165,7 @@ Envoyer le schéma JSON complet.
 ##EventClose
 ----------------------
 
-/* Cloture l'event */
+*Cloture l'event*
 
 Paramètre:
 
@@ -174,7 +175,7 @@ Paramètre:
 ##EventOpen
 ----------------------
 
-/* Open l'event */
+*Open l'event*
 
 Paramètre:
 
@@ -184,7 +185,7 @@ Paramètre:
 ##EventRemove
 ----------------------
 
-/* Supprime l'event */
+*Supprime l'event*
 
 Paramètre:
 
@@ -194,7 +195,6 @@ Paramètre:
 ##EventGetLast
 ---------------------
 
-/* Get le last event auquel le current participe et qui est encore ouvert/pas terminé */
+*Get le last event auquel le current participe et qui est encore ouvert/pas terminé*
 
 Pas de paramètres.
-

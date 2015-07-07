@@ -24,7 +24,7 @@ Le schéma complet du json à envoyer aux fonctions cloud:
 ##FriendSearchFollowing
 ----------------------
 
-/* Récupère une liste de potentiel following en excluant lui meme et ses amis */
+*Récupère une liste de potentiel following en excluant lui meme et ses amis*
 
 Paramètres:
 
@@ -34,7 +34,7 @@ Paramètres:
 ##FriendIsPending
 ----------------------
 
-/* check si le currentUser à une demande en attente sur le user to */
+*check si le currentUser à une demande en attente sur le user to*
 
 Paramètres:
 
@@ -45,7 +45,7 @@ Paramètres:
 ##FriendHasPending
 ----------------------
 
-/* check si le currentUser à une demande en attente sur le user to */
+*check si le currentUser à une demande en attente sur le user to*
 
 Paramètres:
 
@@ -55,7 +55,7 @@ Paramètres:
 ##FriendSetStatus
 ----------------------
 
-/* Set le status ("accepted", "refused", "pending") */
+*Set le status ("accepted", "refused", "pending")*
 
 Paramètres:
 
@@ -72,7 +72,7 @@ ou
 ##FriendIsFollowing
 ----------------------
 
-/* True/False si userHim suit userHas */
+*True/False si userHim suit userHas*
 
 Paramètres:
 
@@ -83,7 +83,7 @@ Paramètres:
 ##FriendIsFollowed
 ----------------------
 
-/* True/False si userHim est suivi par userHas */
+*True/False si userHim est suivi par userHas*
 
 Paramètres:
 
@@ -94,7 +94,7 @@ Paramètres:
 ##FriendCountFollowing
 ----------------------
 
-/* Compte les following d'un user */
+*Compte les following d'un user*
 
 Paramètres:
 
@@ -104,7 +104,7 @@ Paramètres:
 ##FriendCountFollowed
 ----------------------
 
-/* Compte les followed d'un user */
+*Compte les followed d'un user*
 
 Paramètres:
 
@@ -116,7 +116,7 @@ Paramètres:
 
 **Pagination disponible**
 
-/* Liste les following d'un user */
+*Liste les following d'un user*
 
 Paramètres:
 
@@ -130,7 +130,7 @@ Renvoi les données avec un tri du plus récent au plus vieux selon la date de c
 
 **Pagination disponible**
 
-/* Liste les followed d'un user */
+*Liste les followed d'un user*
 
 Paramètres:
 
@@ -142,7 +142,7 @@ Renvoi les données avec un tri du plus récent au plus vieux selon la date de c
 ##FriendAdd
 ----------------------
 
-/* Ajoute un following a un user */
+*Ajoute un following a un user*
 
 Créer une liaison entre userHim et userHas.
 
@@ -157,7 +157,7 @@ Paramètres:
 ##FriendRemoveByUser
 ----------------------
 
-/* Supprime un following d'un user avec les deux ID */
+*Supprime un following d'un user avec les deux ID*
 
 **Supprime la liaison dans les deux sens donc pas besoin de l'appeler deux fois.**
 

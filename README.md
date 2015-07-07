@@ -8,6 +8,10 @@ http://www.mkdocs.org/#installation
 
 * Ajout de deux fonctions dans Event
 
+### 18/06
+
+* Ajout de la fonction cloud checkAddress
+
 ### 16/06
 
 * Ajout d'une fonction dans Event
@@ -101,4 +105,3 @@ Attention, éviter d'utiliser les fonctions count, veuillez utiliser les compteu
 * MAJ sur Like/Média/Event
 
 Dans la plupart des objets, il y a une colonne contenant une String {pointeur}, ceci correspond à un ID, qui va permettre de faire une liaison direct avec une autre row dans la DB. Permettant par la suite une jointure lors des récupérations des données.
-
