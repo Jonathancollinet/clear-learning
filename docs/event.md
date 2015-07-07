@@ -42,6 +42,33 @@ Pas de paramètres.
 Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date de début du wizz.
 
 ----------------------
+##EventAllWithMedia
+----------------------
+
+**Pagination disponible**
+
+/* Liste tous les events avec les trois derniers médias */
+
+Pas de paramètres.
+
+Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date de début du wizz.
+
+----------------------
+##EventAround
+----------------------
+
+**Pagination disponible**
+
+/* Get les events atour de soit en comparant sur les médias et renvoyant les events */
+
+Paramètres:
+
+* lat
+* lng
+
+Renvoi les paramètres avec un tri du plus récent au plus vieux selon la date de début du wizz.
+
+----------------------
 ##EventCount
 ----------------------
 

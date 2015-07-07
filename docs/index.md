@@ -16,6 +16,10 @@ Voir la documentation de votre SDK chez parse pour savoir comment appeler une fo
 -----------------
 ## MAJ de la doc
 
+### 07/06
+
+* Ajout de deux fonctions dans Event
+
 ### 16/06
 
 * Ajout d'une fonction dans Event

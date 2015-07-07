@@ -4,6 +4,10 @@ Documentation WiZZeM
 ## Install mkdocs
 http://www.mkdocs.org/#installation
 
+### 07/06
+
+* Ajout de deux fonctions dans Event
+
 ### 16/06
 
 * Ajout d'une fonction dans Event
